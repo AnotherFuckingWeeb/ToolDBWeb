@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tool DB</title>
+</head>
+<body>
+    <header>
+        <div class="top-menu-container">
+            <div class="top-menu">
+                <div class="db-name">
+                    <div class="purple-square">
+                        <img src="img/icons8-base-de-datos-64.png" alt="" srcset="">
+                    </div>
+                    <p id="dbName">database name</p>
+                    <img class="edit-db-name" id="btnShowDBNameModal" src="img/icons8-editar-archivo-48.png" alt="" srcset="">
+                </div>
+                <div class="top-menu-buttons">
+                    <button id="btnAddNewTable" class="table-btn">+ Create New Table</button>
+                    <img id="storeProcedures" class="pointer-button" src="img/icons8-flujo-de-trabajo-64.png" alt="" srcset="">
+                    <img class="pointer-button" id="cleanData" src="img/icons8-papelera-vacía-64.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div id="mainPanel" class="main-panel">
+            </div>
+        </div>
+    </main>
+
+    <script src="script/main.js"></script>
+    <script src="script/table.js"></script>
+    <script src="script/value.js"></script>
+    <script src="script/StoreProcedure.js"></script>
+    <script src="script/parameter.js"></script>
+    <script src="script/EditDatabaseNameModal.js"></script>
+    <script src="script/EditTableNameModal.js"></script>
+    <script src="script/EditValueNameModal.js"></script>
+    <script src="script/EditProcedureNameModal.js"></script>
+    <script src="script/ProcedureModal.js"></script>
+    <script src="script/ProcedureSection.js"></script>
+    <script src="script/EditProcedureModal.js"></script>
+    <script src="script/EditParameterNameModal.js"></script>
+</body>
+</html>
